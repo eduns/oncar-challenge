@@ -1,0 +1,10 @@
+FROM golang:1.18-alpine
+
+WORKDIR /api
+
+COPY ./backend /api
+
+RUN go mod tidy
+RUN go build -o server main.go
+CMD [ "./server" ]
+# CMD [ "tail", "-f", "/dev/null" ]
