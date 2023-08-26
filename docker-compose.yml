@@ -16,6 +16,18 @@ services:
     networks:
       - api-network
 
+  frontend:
+    container_name: frontend
+    build:
+      context: ./
+      dockerfile: ./docker/Dockerfile.frontend
+    ports:
+      - "8081:80"
+    depends_on:
+      - api
+    networks:
+      - api-network
+
   db:
     container_name: db
     image: postgres:15.4-alpine
