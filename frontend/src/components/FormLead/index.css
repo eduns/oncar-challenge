@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  place-items: center;
+  background: #232129;
+  border-radius: 10px;
+  border: 2px solid #232129;
+  padding: 16px;
+  width: 30ch;
+  color: #f4ede8;
+  flex-direction: column;
+}
+
+.container input {
+  background: #444050;
+  border: 0;
+  height: 30pt;
+  width: 29ch;
+  margin-bottom: 8pt;
+  font-size: 15pt;
+  border-radius: 5px;
+}
+
+.container + input {
+  margin-top: 8px;
+}
+
+.container button {
+  padding: 19px;
+  margin-top: 10px;
+  background-color: rgb(80, 152, 219);
+  font-weight: bold;
+  border-radius: 20px;
+  font-size: 15pt;
+}
+
+#errors {
+  margin-top: 12px;
+}

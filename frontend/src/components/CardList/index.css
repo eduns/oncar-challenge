@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: inherit;
+  vertical-align: baseline;
+}
+
+#root {
+  width: 100%;
+  display: grid;
+  place-items: center;
+}
+
+#container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin: 12px;
+  max-width: 100ch;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 0.5rem;
+}
+
