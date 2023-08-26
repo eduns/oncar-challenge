@@ -9,7 +9,7 @@ CREATE TABLE IF NOT EXISTS vehicles (
 CREATE TABLE IF NOT EXISTS leads (
   id char(36) PRIMARY KEY NOT NULL,
   name varchar(50) NOT NULL,
-  email varchar(20) NOT NULL,
+  email varchar(40) NOT NULL,
   phone char(14) NOT NULL,
   chosenVehicleId char(36) NOT NULL
 );
