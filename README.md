@@ -76,6 +76,7 @@ Possui grande flexibilidade para criação e reuso de componentes, eficiência n
 ![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)
 
 Acelera muito o desenvolvimento de páginas web, criando uma estrutura de trabalho ordenada e performática.
+Depois, execute
 
 ---
 
@@ -88,6 +89,8 @@ make run-tests
 ```
 
 ### Executando os serviços do projeto
+
+Antes de tudo, preencha os valores das váriáveis nos arquivos **.env.example** e **.env.database.example**
 
 ```bash
 make run-app
